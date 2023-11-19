@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  overflow: hidden;
+  user-select: none;
+}
+
+@keyframes BlurIt {
+  0% {
+    filter: blur(0);
+  }
+  100% {
+    filter: blur(1.5em);
+  }
+}
+
+.BlurAnim {
+  animation: BlurIt 2s linear forwards;
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
+.FadeIn {
+  animation: FadeIn 2s linear forwards;
+  pointer-events: all;
+}
+
+.SpecialFont {
+  font-family: 'Playpen Sans', cursive;
+}
+
+@keyframes FadeOutVid {
+  0% {
+    opacity: 1;
+    filter: blur(1.5em);
+
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+    filter: blur(0);
+  }
+}
+
+.FadeOutVid {
+  pointer-events: none;
+  animation: FadeOutVid 2s linear forwards;
+}
+
+@keyframes FadeOut {
+  0% {
+    opacity: 1;
+
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.FadeOut {
+  pointer-events: none;
+  animation: FadeOut 2s linear forwards;
+}
+
+.BgDiv {
+  background-image: url('./Background3.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  filter: blur(0.5em);
+}
+
+video {
+  pointer-events: none;
+}
+
+::-webkit-scrollbar {
+  border-radius: 12em;
+  display: none;
+  width: 0;
+}
