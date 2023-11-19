@@ -12,6 +12,14 @@ An uncontinued chess analysis project, using the Stockfish Engine and OpenAI API
   
 * The OpenAI API generates a friendly reply to answer the user's question, based on the knowledge of the current position and the game.
 
+## 🤓 Technologies Used
+* ReactJS Framework
+* Tailwind CSS
+* [Chess.js Library](https://www.npmjs.com/package/chess.js)
+* [Chessboardjsx Library](https://www.npmjs.com/package/chessboardjsx)
+* [Stockfish.js WASM](https://github.com/nmrugg/stockfish.js)
+* [OpenAI API](https://openai.com/) (Not Implemented Completely Into Project)
+  
 ## 📷 Screenshots
 
 ## 🌻 Conclusion
