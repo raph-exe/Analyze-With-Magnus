@@ -21,6 +21,9 @@ An uncontinued chess analysis project, using the Stockfish Engine and OpenAI API
 * [OpenAI API](https://openai.com/) (Not Implemented Completely Into Project)
   
 ## 📷 Screenshots
-
+![Screenshot 1](Screenshots/Screenshot1.png)
+![Screenshot 2](Screenshots/Screenshot2.png)
+![Screenshot 3](Screenshots/Screenshot3.png)
+![Screenshot 4](Screenshots/Screenshot4.png)
 ## 🌻 Conclusion
 This project's basic idea is completed, however the OpenAI technology is not implemented, and you are free to implement it, using your own approach and OpenAI API Key. You are also free to contribute and improve this project. Pull requests are accepted.
