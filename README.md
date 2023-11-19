@@ -25,5 +25,9 @@ An uncontinued chess analysis project, using the Stockfish Engine and OpenAI API
 ![Screenshot 2](Screenshots/Screenshot2.png)
 ![Screenshot 3](Screenshots/Screenshot3.png)
 ![Screenshot 4](Screenshots/Screenshot4.png)
+
+## 👀 Live Site Preview
+You can view a live hosted preview of this project [here](https://analyze-with-magnus-preview.netlify.app/)
+
 ## 🌻 Conclusion
 This project's basic idea is completed, however the OpenAI technology is not implemented, and you are free to implement it, using your own approach and OpenAI API Key. You are also free to contribute and improve this project. Pull requests are accepted.
